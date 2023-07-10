@@ -16,7 +16,7 @@ int main (){
     
     for (i=0; i<tamanhop; i++){
         if(palavra[i] == 'a' || palavra[i] == 'A' || palavra[i] == 'b' || palavra[i] == 'B' ){
-            printf("\n%c", palavra[i]);
+            printf("%c", palavra[i]);
         }
     }
 
